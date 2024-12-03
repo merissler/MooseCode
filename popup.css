@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    min-width: 260px;
+    padding: 10px;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#plain-text-translate-input {
+    width: 250px;
+    height: 100px;
+    min-height: 1.1em;
+    resize: vertical;
+    overflow: auto;
+}
+
+#moose-code-output {
+    margin-top: 10px;
+}

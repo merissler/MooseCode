@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Moose Code",
+  "description": "Translate Moose Code",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "icons": {
+    "512": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "512": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "translator.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
